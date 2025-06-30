@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+D:\01-STUDY\SHJ\redcinema-reservation\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1771886661.index
-474253021.index
-697400327.index
-18557213.index
-554011086.index
-1446377049.index

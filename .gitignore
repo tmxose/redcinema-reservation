@@ -1,29 +1,11 @@
-# 빌드 결과물
-/target/
-/bin/
-/out/
+/.metadata/
+/Servers/
 
-# IDE 설정 (Eclipse, IntelliJ 등)
-*.classpath
-*.project
-*.settings/
-.idea/
-*.iml
-*.iws
+/redcinema/.settings/
+/redcinema/target/
 
-# Maven Wrapper
-.mvn/
+/redcinema/.classpath
+/redcinema/.project
+/redcinema/.springBeans
 
-# 로그 파일
-*.log
-
-# OS별 파일
-.DS_Store
-Thumbs.db
-
-# 환경 설정 파일 (보안상)
-*.env
 *.properties
-
-# 기타
-*.class

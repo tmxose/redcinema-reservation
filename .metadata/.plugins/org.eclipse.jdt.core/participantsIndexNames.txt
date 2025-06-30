@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-D:\01-STUDY\SHJ\redcinema\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2989032042.index
-\redcinema\src\main\java
