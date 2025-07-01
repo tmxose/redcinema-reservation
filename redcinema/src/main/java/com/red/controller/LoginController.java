@@ -33,6 +33,7 @@ public class LoginController {
 	@PostMapping("")
 	public String loginPost(UserVO user, Model model, HttpSession session) {
 	    try {
+	    	log.info(user);
 	        UserVO currentUser = service.login(user);
 
 	        // 로그인 성공 시 사용자 정보는 세션에 저장

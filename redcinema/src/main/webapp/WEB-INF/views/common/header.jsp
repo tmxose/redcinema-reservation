@@ -8,7 +8,7 @@
         <%-- 서버 세션에 로그인 사용자 정보가 있으면 출력 --%>
         <c:choose>
           <c:when test="${not empty sessionScope.currentUserInfo}">
-            환영합니다, ${sessionScope.currentUserInfo.name}님 (보유 포인트: ${sessionScope.currentUserInfo.points}P)
+            환영합니다, ${sessionScope.currentUserInfo.user_nm}님 (보유 포인트: ${sessionScope.currentUserInfo.user_point}P)
           </c:when>
           <c:otherwise>
             <!-- 비로그인 상태 UI -->

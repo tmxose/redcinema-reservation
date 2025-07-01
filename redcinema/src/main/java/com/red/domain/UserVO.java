@@ -8,6 +8,6 @@ public class UserVO {
 	public String user_id;
 	public String user_pw;
 	public String user_nm;
-	public int  user_point;
+	public int user_point;
 	public String  use_yn;
 }

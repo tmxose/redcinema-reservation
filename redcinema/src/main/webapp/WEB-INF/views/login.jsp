@@ -20,8 +20,8 @@
 				<h2>로그인</h2>
 				<form action="login" method="post">
 					<div class="input-group">
-						<input id="login-id" placeholder="아이디" autocomplete="off" /> 
-						<input id="login-pw" type="password" placeholder="비밀번호" autocomplete="off" />
+						<input id="login-id" name="user_id" placeholder="아이디" autocomplete="off" /> 
+						<input id="login-pw" name="user_pw" type="password" placeholder="비밀번호" autocomplete="off" />
 					</div>
 					<div class="button-group">
 						<input type="submit" value="로그인" /> 
