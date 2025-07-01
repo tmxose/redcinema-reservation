@@ -17,19 +17,28 @@
 	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
-		<level value="info" />
+		<level value="WARN" />
 	</logger>
 	
 	<logger name="org.springframework.beans">
-		<level value="info" />
+		<level value="WARN" />
 	</logger>
 	
 	<logger name="org.springframework.context">
-		<level value="info" />
+		<level value="WARN" />
 	</logger>
 
 	<logger name="org.springframework.web">
-		<level value="info" />
+		<level value="WARN" />
+	</logger>
+	
+	<logger name="org.springframework.web.servlet">
+	    <level value="WARN" />
+	</logger>
+
+	<!-- Tomcat Loggers -->
+	<logger name="org.apache.catalina">
+	    <level value="WARN" />
 	</logger>
 
 	<!-- Root Logger -->

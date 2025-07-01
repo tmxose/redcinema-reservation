@@ -5,11 +5,11 @@
 <head>
 <meta charset="UTF-8">
    <title>회원가입</title>
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="stylesheet" href="../assets/css/reserveTab.css" />
+    <link rel="stylesheet" href="../../resources/css/main.css" />
+    <link rel="stylesheet" href="../../resources/css/reserveTab.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="../assets/js/user.js"></script>
-    <script src="../assets/js/main.js" defer></script>
+    <script src="../../resources/js/user.js"></script>
+    <script src="../../resources/js/main.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -24,7 +24,7 @@
 	          </div>
 	          <div class="button-group">
 	          	<input type="submit" value="가입하기" /> 
-				<input type="button" onclick="location.href='index'" value="메인페이지" />
+				<input type="button" onclick="location.href='/'" value="메인페이지" />
 	          </div>
           </form>
         </div>

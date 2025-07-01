@@ -4,7 +4,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.red.mapper.UserMapper">
 	<!-- SELECT -->
-	<select id="getUserSelect" resultType="com.red.domain.UserVO">
+	<select id="selectUserInfo" resultType="com.red.domain.UserVO">
 		<![CDATA[
 		SELECT * FROM t_user
 		WHERE use_yn = 'Y' AND user_id = #{user_id} and user_pw = #{user_pw};
@@ -13,7 +13,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 	
 	<!-- INSERT -->
-	<insert id="userInsert" parameterType="com.red.domain.UserVO">
+	<insert id="insertUser" parameterType="com.red.domain.UserVO">
 		<![CDATA[
 		INSERT INTO t_user(user_id, user_pw, user_nm)
 		VALUES(#{user_id}, #{user_pw}, #{user_nm})

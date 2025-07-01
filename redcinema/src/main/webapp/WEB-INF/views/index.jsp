@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,26 +14,7 @@
 <body>
   <div class="container">
     <!-- 공통 헤더 -->
-    <header>
-      <div class="header-back">
-        <div id="header-logo">
-          <a href="/" class="logo-text">레드 시네마</a>
-          <div id="user-info" style="color: white; font-weight: bold"></div>
-          <ul>
-            <li><a href="/login">로그인</a></li>
-            <li><a href="/signup">회원가입</a></li>
-          </ul>
-        </div>
-        <div id="header-nav">
-          <ul>
-            <li><a href="/reserve">예매</a></li>
-            <li><a href="/movie">영화</a></li>
-            <li><a href="/product">상품</a></li>
-            <li><a href="/event">이벤트</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
+ 	<%@ include file="./common/header.jsp" %>
 
     <!-- #region 메인 : 큰 영화 포스터 혹은 광고  -->
     <main>
